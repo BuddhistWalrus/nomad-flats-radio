@@ -4,15 +4,15 @@ import './App.css';
 import Hull from "./main/components/Hull";
 
 function App() {
-  return (
-    <div className="App">
-        <header>
-        </header>
-        <body>
+    return (
+        <div className="App">
+            <header>
+            </header>
+            <body>
             <Hull />
-        </body>
-    </div>
-  );
+            </body>
+        </div>
+    );
 }
 
 export default App;
