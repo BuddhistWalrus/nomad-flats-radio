@@ -18,8 +18,6 @@ class HelmPlayer extends Component {
                         Your browser does not support the audio element.
                     </audio>
                 </div>
-
-
             </div>
         );
     }

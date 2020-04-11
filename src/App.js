@@ -10,7 +10,7 @@ function App() {
             <header>
             </header>
             <body>
-            <Hull />
+                <Hull />
             </body>
         </div>
     );
