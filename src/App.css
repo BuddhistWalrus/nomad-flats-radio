@@ -36,3 +36,37 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.btn {
+
+}
+.btn-primary {
+  border: 1px solid black;
+  border-radius: 0;
+  color: black;
+  background-color: transparent;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  border: 1px solid black;
+  border-radius: 0;
+  color: white;
+  background-color: black;
+  box-shadow: 0 0 0 0.2rem lightslategrey;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem lightslategrey;
+}
+.btn-primary:hover {
+  border: 1px solid black;
+  border-radius: 0;
+  color: white;
+  background-color: black;
+  box-shadow: 0 0 0 0.2rem lightslategrey;
+}
+.btn-primary:focus {
+  border: 1px solid black;
+  border-radius: 0;
+  color: white;
+  background-color: black;
+  box-shadow: 0 0 0 0.2rem lightslategrey;
+}

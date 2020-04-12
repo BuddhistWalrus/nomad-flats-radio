@@ -1,12 +1,67 @@
 .helm-player-outer-container {
   background-color: #eee;
-  border-radius: 4px;
   padding: 10px;
-  .player-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
+  border: 1px solid black;
 
+  .player-container {
+    //display: flex;
+    //flex-direction: row;
+    //justify-content: center;
+    //align-content: center;
+
+
+    .header {
+
+      border: 1px solid black;
+      padding: 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        font-weight: 600;
+        font-size: 16px;
+      }
+
+      span {
+        font-size: 14px;
+        font-weight: 600;
+        padding: 5px;
+        border: solid 1px black;
+        line-height: 10px;
+      }
+
+    }
+
+    .center-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-content: center;
+      @media(max-width: 576px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+      }
+      .track-info-container {
+        margin-left: 10px;
+        @media(max-width: 576px) {
+          margin-top: 10px;
+          margin-left: 0;
+        }
+        #helm-player {
+         display: none;
+        }
+        h2 {
+          line-height: .65;
+        }
+        .duration {
+          padding: 10px;
+          border: 1px solid black;
+        }
+      }
+    }
   }
 }

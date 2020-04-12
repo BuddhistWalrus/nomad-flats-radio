@@ -1,12 +1,58 @@
 .helm-player-outer-container {
   background-color: #eee;
-  border-radius: 4px;
   padding: 10px;
+  border: 1px solid black;
 }
-.helm-player-outer-container .player-container {
+.helm-player-outer-container .player-container .header {
+  border: 1px solid black;
+  padding: 5px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+}
+.helm-player-outer-container .player-container .header p {
+  font-weight: 600;
+  font-size: 16px;
+}
+.helm-player-outer-container .player-container .header span {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px;
+  border: solid 1px black;
+  line-height: 10px;
+}
+.helm-player-outer-container .player-container .center-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   align-content: center;
+}
+@media (max-width: 576px) {
+  .helm-player-outer-container .player-container .center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+  }
+}
+.helm-player-outer-container .player-container .center-container .track-info-container {
+  margin-left: 10px;
+}
+@media (max-width: 576px) {
+  .helm-player-outer-container .player-container .center-container .track-info-container {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}
+.helm-player-outer-container .player-container .center-container .track-info-container #helm-player {
+  display: none;
+}
+.helm-player-outer-container .player-container .center-container .track-info-container h2 {
+  line-height: 0.65;
+}
+.helm-player-outer-container .player-container .center-container .track-info-container .duration {
+  padding: 10px;
+  border: 1px solid black;
 }
 /*# sourceMappingURL=HelmPlayer.css.map */
