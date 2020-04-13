@@ -49,6 +49,42 @@ const playlistArr = [
         wav_path: null,
         mp3_path: "https://t4.bcbits.com/stream/4c31b4967e07f5e4305b7e47b5e2a441/mp3-128/3518967595?p=0&ts=1586826167&t=a16ced45e8056b263b17afb7978e30d37aa59d03&token=1586826167_71fab106d0ca7fe9d43681d2a29663fa8042d336",
         image_path: 'https://f4.bcbits.com/img/a1554218515_16.jpg'
+    },
+    {
+        title: 'The Picturesque Mountain\'s Remains Yield Dancing Monstrosities',
+        artist: 'TEG',
+        album: 'Pinklore',
+        ogg_path: null,
+        wav_path: null,
+        mp3_path: "https://t4.bcbits.com/stream/ec1917c4875519eeaa8f1991a87ebaf9/mp3-128/2682799247?p=0&ts=1586830703&t=3b9897ef87f87429a5e98a7bab9a89c4919fe0bb&token=1586830703_a5df7835741ab8e8da3f2c80d02df7c4d1a407f3",
+        image_path: 'https://f4.bcbits.com/img/a3107691983_16.jpg'
+    },
+    {
+        title: 'Leaving the Comfort Zone',
+        artist: 'Baucier ft. (Carpetland Flats Collective, Desert Rygon)',
+        album: 'Leaving the Comfort Zone -- Single',
+        ogg_path: null,
+        wav_path: null,
+        mp3_path: "https://nfradio.s3-us-west-2.amazonaws.com/Leaving+the+Comfort+Zone.mp3",
+        image_path: 'https://i1.sndcdn.com/artworks-000508706229-8e54d2-t500x500.jpg'
+    },
+    {
+        title: 'unicorns&dinosaurs',
+        artist: 'Cosmicdopetron',
+        album: 'FRANTIC OBLIVION',
+        ogg_path: null,
+        wav_path: null,
+        mp3_path: "https://nfradio.s3-us-west-2.amazonaws.com/unicorns%26dinosaurs.mp3",
+        image_path: 'https://nfradio.s3-us-west-2.amazonaws.com/album_art/FRANTIC_OBLIVION_ALBUM_ART.png'
+    },
+    {
+        title: 'Bastard',
+        artist: 'Baucier ft. (tumbleweed, TEG, Robotnik)',
+        album: 'Original Six EP',
+        ogg_path: null,
+        wav_path: null,
+        mp3_path: "https://nfradio.s3-us-west-2.amazonaws.com/Bastard.mp3",
+        image_path: "https://i1.sndcdn.com/artworks-TeKYT0SO5nmbu2MW-pPbqlw-t200x200.jpg"
     }
 
 ];

@@ -2,6 +2,7 @@
   background-color: #eee;
   padding: 10px;
   border: 1px solid black;
+  max-width: 786.64px;
 }
 .helm-player-outer-container .player-container .header {
   border: 1px solid black;
@@ -54,5 +55,11 @@
 .helm-player-outer-container .player-container .center-container .track-info-container .duration {
   padding: 10px;
   border: 1px solid black;
+}
+@media (max-width: 576px) {
+  .helm-player-outer-container .player-container .center-container .track-info-container .controls .btn {
+    min-width: 90px;
+    min-height: 90px;
+  }
 }
 /*# sourceMappingURL=HelmPlayer.css.map */
