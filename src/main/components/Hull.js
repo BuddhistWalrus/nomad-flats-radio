@@ -8,10 +8,10 @@ const satellite_logo = require("../../assets/icons/satellite/satellite_pirate_lo
 class Hull extends Component {
     render () {
         return (
-            <div className={'hull-outer-container glitch'}>
+            <div className={'hull-outer-container'}>
                 Ahoy matey, ye've stumbled upon some buried treasure....
 
-                <Image alt={'two crossed sabers below a satellite'} fluid src={satellite_logo}></Image>
+                <Image alt={'two crossed sabers below a satellite'} className={'glitch'} fluid src={satellite_logo}></Image>
 
 
                 <HelmPlayer />

@@ -49,7 +49,7 @@
   display: none;
 }
 .helm-player-outer-container .player-container .center-container .track-info-container h2 {
-  line-height: 0.65;
+  line-height: 0.75;
 }
 .helm-player-outer-container .player-container .center-container .track-info-container .duration {
   padding: 10px;
